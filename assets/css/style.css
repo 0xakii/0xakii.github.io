@@ -415,6 +415,7 @@ p {
     padding: 20px 100px;
     margin-right: 20px;
     border: 2px solid var(--light-color);
+	border-radius: 10px;
     transition: 0.5s;
 }
 

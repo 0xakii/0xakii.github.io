@@ -406,7 +406,25 @@ p {
     color: #fff;
 }
 
+.button_chlamydia {
+    align-items: center;
+    justify-content: center;
+    color: var(--light-color);
+    background-color: transparent;
+    text-decoration: none;
+    padding: 20px 100px;
+    margin-right: 20px;
+    border: 2px solid var(--light-color);
+    transition: 0.5s;
+}
 
+.button_chlamydia:hover {
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid var(--light-color);
+    color: var(--light-color);
+    cursor: pointer;
+}
 
 /* Featured articles */
 .featured-articles{
